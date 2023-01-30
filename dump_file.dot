@@ -1,0 +1,10 @@
+digraph {
+pack=true;
+splines=ortho;
+node [ shape=record ];
+n0x562b92a592a0[label = "yes";];
+n0x562b92a592e0[label = "yes2";];
+n0x562b92a592a0 -> n0x562b92a592e0 [label = "yes";];
+n0x562b92a59320[label = "no";];
+n0x562b92a592a0 -> n0x562b92a59320 [label = "no";];
+}
